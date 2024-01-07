@@ -137,6 +137,11 @@ span {
 
 @media screen and (max-width:550px){
     .container {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }    
+    .input {
+        width: 4.5rem;
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
 }
