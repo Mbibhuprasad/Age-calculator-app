@@ -29,11 +29,11 @@ main {
 
 .container {
     background-color: blueviolet;
-    width: 47%;
+    width: 45%;
     padding: 2.5rem;
     background-color: var(--White);
     border-radius: 1.5rem 1.5rem 10.5rem 1.5rem;
-    font-size: 2.7rem;
+    font-size: 2.6rem;
 }
 
 .date-section {
