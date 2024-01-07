@@ -110,7 +110,7 @@ span {
 @media screen and (max-width:1000px){
     .container {
         width: 90%;
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         transition: font-size 0.9s , width 0.9s;
     }    
 
