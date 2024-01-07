@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Josefin+Sans:wght@300;400;600&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Offwhite: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+}
+
+body {
+    font-family: poppins;
+    background-color: var(--Offwhite);
+}
+main {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 45%;
+    padding: 2.5rem;
+    background-color: var(--White);
+    border-radius: 1.5rem 1.5rem 10.5rem 1.5rem;
+    font-size: 2.9rem;
+}
+
+.date-section {
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+}
+
+label {
+    color: var(--Off-black);
+    opacity: 0.7;
+    display: block;
+    font-size: 1rem;
+}
+
+.input {
+    width: 9rem;
+    display: block;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 2px solid var(--Light-grey);
+}
+
+.logo {
+    margin: 1rem auto;
+   display: flex;
+   align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.logo button {
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--Purple);
+    transition: background-color 1s;
+}
+
+.logo button:hover {
+    background-color: var(--Off-black);
+    cursor: pointer;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+button img {
+    width: 100%;
+}
+
+h1 {
+    color: var(--Off-black);
+    line-height: 5.6rem;
+}
+
+span {
+    color: var(--Purple);
+}
+
+.sujjest {
+    margin-top: 0.5rem;
+    color: var(--Light-red);
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: color 2s;
+}
+
+@media screen and (max-width:1000px){
+    .container {
+        width: 90%;
+        font-size: 2.3rem;
+        transition: font-size 0.9s , width 0.9s;
+    }    
+
+    .date-section {
+        width: 100%;
+    }
+    .logo {
+        margin: 4rem auto;
+        position: relative;
+    }
+    
+    #submit {
+       position: absolute;
+       right: 43%;
+    }
+
+    .input {
+        width: 6rem;
+        padding: 1.1rem;
+        font-size: 1.1rem;
+        transition: width 2s , padding 2s, font-size 2s ;
+    }
+}

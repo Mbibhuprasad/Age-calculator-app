@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <form class="date-section">
+        <article>
+          <label for="date">Day</label>
+          <input class="input" type="number" id="input-date" placeholder="DD" min="0" max="31">
+          <p class="sujjest" id="errordate"><i></i></p>
+        </article>
+        <article>
+          <label for="month">Month</label>
+          <input class="input" type="number" id="input-month" placeholder="MM" min="0" max="11">
+          <p class="sujjest" id="errormonth"><i></i></p>
+        </article>
+        <article>
+          <label for="year">Year</label>
+          <input class="input" type="number" id="input-year" placeholder="YYYY">
+          <p class="sujjest" id="erroryear"><i></i></p>
+        </article>
+      </form>
+
+      <div class="logo">
+        <hr>
+        <button type="button" id="submit"><img src="assets/images/icon-arrow.svg" alt=""></button>
+      </div>
+  
+      <div class="display-section">
+          <h1><i><span id="show-year">- -</span>years</i></h1>
+          <h1><i><span id="show-month">- -</span>months</i></h1>
+          <h1><i><span id="show-day">- -</span>days</i></h1>
+      </div>
+  
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bibhu prasad Mahapatra</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
