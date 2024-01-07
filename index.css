@@ -134,3 +134,9 @@ span {
         transition: width 2s , padding 2s, font-size 2s ;
     }
 }
+
+@media screen and (max-width:550px){
+    .container {
+        font-size: 1.2rem;
+    }    
+}
